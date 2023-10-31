@@ -3,7 +3,13 @@
 class HelloWorld { public static void main(String[] args) 
 
 { Scanner sc = new Scanner(System.in);       
-            
+
+double precoa, precob, preco;
+    
+int quantidade, pedido, pedidoa, quantidadea;
+    
+String pizza, refri;
+    
             System.out.println("Pizzas da Casa: ");
     System.out.println("1.Pizza Margherita Ingredientes: Molho de tomate, mussarela, manjericao fresco. Preco: R$ 25,00 ");
     System.out.println("2.Pizza Pepperoni Ingredientes: Molho de tomate, mussarela, pepperoni. Preco: R$ 28,00 ");
@@ -12,11 +18,7 @@ class HelloWorld { public static void main(String[] args)
     System.out.println("5.Pizza Quatro Queijos Ingredientes: Molho de tomate, mussarela, queijo gorgonzola, queijo parmesao, queijo provolone. Preco: R$ 31,00 ");
 
     
-    double precoa, precob, preco;
-    
-    int quantidade, pedido, pedidoa, quantidadea;
-    
-    String pizza, refri;
+
     
     System.out.println("Qual seria o numero do peido da pizza?");
     pedido = sc.nextInt();
