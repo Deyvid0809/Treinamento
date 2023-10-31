@@ -1,7 +1,9 @@
     import java.util.Scanner;
 
 class HelloWorld { public static void main(String[] args) 
+
 { Scanner sc = new Scanner(System.in);       
+            
             System.out.println("Pizzas da Casa: ");
     System.out.println("1.Pizza Margherita Ingredientes: Molho de tomate, mussarela, manjericao fresco. Preco: R$ 25,00 ");
     System.out.println("2.Pizza Pepperoni Ingredientes: Molho de tomate, mussarela, pepperoni. Preco: R$ 28,00 ");
